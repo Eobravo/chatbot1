@@ -15,8 +15,8 @@ app.prepare().then(() => {
     } else {
       app.render(req, res, '/index', query)
     }
-  }).listen(3000, (err) => {
+  }).listen(8080, (err) => {
     if (err) throw err
-    console.log('> Ready on http://localhost:80')
+    console.log('> Ready on http://localhost:8080')
   })
 })
